@@ -1,0 +1,63 @@
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "form1";
+}
+@model pos.ViewModel.UserViewModel
+
+
+ 
+    
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+<div class="fadeIn first">
+        <br>
+        <h1>Kayıt Ol</h1>
+        <br>
+        </div>
+
+    
+    <!-- VALİDATİON KISIMLARI BASLANGICI -->
+    <div class="form group " >
+<span asp-validation-for="UserName" class="text-danger"> </span>
+ <span asp-validation-for="PhoneNumber" class="text-danger "></span>
+ <span asp-validation-for="Email" class="text-danger "></span>
+  <span asp-validation-for="Password" class="text-danger "></span>
+  <div asp-validation-summary="ModelOnly" class="text-danger"> </div>
+
+    </div>
+    <!-- VALİDATİON KISIMLARI SONU -->
+
+
+    <!-- Login Form -->
+    <form  asp-action="SignUp" asp-controller="Home" method="post">
+        
+      <input type="text"  class="fadeIn second"  asp-for="UserName" placeholder="Kullanıcı Adı"/>
+
+      <input type="text"  class="fadeIn third"  asp-for="PhoneNumber" placeholder="Telefon Numarası"/>
+
+      <input type="text" class="fadeIn fourth" asp-for="Email" placeholder="E-Posta Adresi"/>
+      
+      
+      <input type="password" class="fadeIn fourt"  asp-for="Password"  placeholder="Şifre"/>
+
+
+      <input type="submit" class="fadeIn four" value="Kayıt Ol"> 
+    </form>
+
+     <div id="formFooter">
+      <a class="underlineHover" asp-controller="Product" asp-action="List">Menü</a>
+    </div>
+
+  </div>
+</div>
+
+
+        

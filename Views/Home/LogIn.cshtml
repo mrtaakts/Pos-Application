@@ -1,0 +1,60 @@
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "form1";
+}
+@model pos.ViewModel.LoginViewModel;
+
+
+ 
+    
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+<div class="fadeIn first">
+        <h1>Giriş Yap</h1>
+        <br>
+        </div>
+
+    
+    <!-- VALİDATİON KISIMLARI BASLANGICI -->
+     <span asp-validation-for="Email" class="text-danger "></span>
+  <span asp-validation-for="Password" class="text-danger "></span>
+  <div asp-validation-summary="ModelOnly" class="text-danger"> </div>
+    <!-- VALİDATİON KISIMLARI SONU -->
+
+
+    <!-- Login Form -->
+    <form  asp-action="LogIn" asp-controller="Home" method="post">
+     
+        
+      <input type="text"  class="fadeIn second"  asp-for="Email" placeholder="Email"/>
+
+      <input type="password"  class="fadeIn third"  asp-for="Password" placeholder="Şifre"/>
+      <br>
+
+        
+      <div class="fadeIn fourth">
+        <input class="fadeIn fourth" type="checkbox" asp-for="RememberMe"/> Beni Hatırla
+      </div>
+
+      
+    <br>
+      <input type="submit" class="fadeIn four"  value="Giriş Yap"> 
+    </form>
+
+     <div id="formFooter">
+     
+    </div>
+
+  </div>
+</div>
+
+
+        

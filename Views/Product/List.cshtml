@@ -1,0 +1,205 @@
+@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "List";
+        Layout = "_Layout";
+        string filter1="";
+}
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo:400i&display=swap" rel="stylesheet">
+
+
+<style> 
+    .right{
+         float:right;
+    }
+    .left{
+         float:left;
+    }
+    .icerik {
+display: table-cell;
+vertical-align: middle;
+    }
+    .a{
+      width:50px;
+    }
+    .ab{
+      width:170px;
+    }
+
+html,body {
+	width:100%;
+	position:relative;
+}
+
+h4, h5{
+  font-family: 'Archivo', sans-serif;
+}
+
+
+</style>
+
+<br>
+<div class="dropdown">
+  <button class="btn btn-danger dropdown-toggle right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Kategori Seç
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <button class="dropdown-item" href="#"></button>
+    <button class="dropdown-item" href="#">Et</button>
+    <button class="dropdown-item" href="#">İçecekler</button>
+    <button class="dropdown-item" href="#">Pideler</button>
+    <button class="dropdown-item" href="#">Tatlılar</button>
+  </div>
+</div>
+
+<br>
+<br>
+
+@foreach (var item in Model)
+{
+  
+  
+      
+<div class="form-row  ">
+
+    <div class="col-md-6  ">
+
+        <div class="card text-center icerik " style="width: 300px; height:350px ">
+
+            <div class="card-header bg-white"> 
+
+            <h4 class="card-title  "> @item.Name
+            </h4>
+
+            </div> <!-- CARD HEADER SONU-->
+
+       <div class="card-body">
+    
+        <h5 class="card-subtitle mb-2   ">@item.ProductId
+        </h5>
+        <h5 class="card-text">@item.Description
+        </h5>
+         <h5 class="card-text">@item.Price TL
+        </h5>
+    
+
+
+          <hr class="bg-danger">
+
+          <button type="button" class="btn btn-outline-danger  btn-lg " data-target="#DeleteModal-@item.ProductId" data-toggle="modal">
+            Sil
+          </button>
+          <button type="button" class="btn btn-outline-success btn-lg" data-toggle="modal" data-target="#modal_@item.ProductId">
+          Sipariş Ver
+          </button>
+
+       
+   
+            </div> <!-- CARD BODY SONU -->  
+
+        </div>  <!--CARD SONU --> 
+
+    </div> <!-- DİV CLASS COL-MD-6 SONU --> 
+
+            <div class="col-md-6 ">
+              @if(item.Image!=null)
+              {
+              var base64=Convert.ToBase64String(item.Image);
+              var imgsrc = string.Format("data:image/jpeg;base64,{0}", base64);
+              <img src='@imgsrc' class="card-img img-thumbnail rounded-circle" alt="Card image cap" width="280px" height="300px">
+              }
+            </div>   <!--DİV CLASS COL-MD-6 SONU -->
+            
+            </div>  <!--FORM ROW SONU-->
+        <br>
+        <br>
+
+<!-- Modal -->
+<div class="modal fade" id="modal_@item.ProductId" tabindex="-1" role="dialog" aria-labelledby="OrderModale" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Sipariş Ver</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div id="app" class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-5">Yemek<hr>
+            <input class="ab" id="food"  type="text" name="food" disabled asp-for="@item.Name">
+  
+            </div>
+            <div class="col-md-3">Adet<hr>
+            <input id="adet" type="number" min="1" max="20"/>
+            </div>
+
+
+            <div class="col-md-4">Fiyat<hr>
+            <input class="a" id="fiyat" type="text" disabled asp-for="@item.Price">
+            </div>
+      
+      
+      </div>
+      <br>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger">Sil</button>
+        <button type="button" class="btn btn-success">Onayla</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- MODAL END -->
+
+
+<!-- BU DELETE MODALI -->
+
+ <div class="modal fade text-dark" id="DeleteModal-@item.ProductId" tabindex="-1" role="dialog" aria-labelledby="DeleteModal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <h5 class="modal-title" id="DeleteTitle">@item.ProductId numaralı ürün
+
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          @item.Name 
+          "silinsin mi?"
+
+      </p>
+ 
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">İptal</button>
+        <a  asp-action="Delete" asp-controller="Product" asp-route-id="@item.ProductId" class="btn btn-outline-danger " >
+          Sil</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Delete Modalının sonu -->
+
+
+}
+@section Scripts{
+<script>
+  
+  function filter1() {
+    return filter1;
+  }
+</script>
+}
+
+        
+      
+

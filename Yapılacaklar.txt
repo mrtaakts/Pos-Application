@@ -1,0 +1,5 @@
+rol bazli yetkilendirme (rol olusturma ,silme ,guncelleme, uye kullanicilara rol atama , uyelere atanan rolleri gosterme , sayfalari yetkilendirme)
+
+ucuncu taraf kimlik dogrulamasi (facebook ile giris , google ile giris )
+
+foreign key primary key database normalization 

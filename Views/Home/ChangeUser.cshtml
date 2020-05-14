@@ -1,0 +1,54 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+@model UserChangeViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "form1";
+}
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+
+    <!-- VALİDATİON KISIMLARI BASLANGICI -->
+    <div class="form group " >
+ <span asp-validation-for="UserName" class="text-danger "></span>
+  <br>
+ <span asp-validation-for="PhoneNumber" class="text-danger "></span>
+ <br>
+ <span asp-validation-for="Email" class="text-danger "></span>
+ <div asp-validation-summary="ModelOnly" class="text-danger"> </div>
+
+</div>
+
+    <!-- VALİDATİON KISIMLARI SONU -->
+
+
+     <!-- Login Form -->
+    <form  method="post" asp-action="Change" asp-controller="Home" >
+
+     <!-- Fotoğraf kısmı-->
+     <div class="fadeIn first"> <h1>Bilgileri Güncelle</h1>
+     <br>
+    </div>
+
+
+      <input type="text"  class="fadeIn second"  asp-for="UserName" placeholder="Kullanıcı adınızı Giriniz"/>
+
+      <input type="text"  class="fadeIn third"  asp-for="PhoneNumber" placeholder="Telefon Numaranızı Giriniz"/>
+
+      <input type="text" class="fadeIn fourth" asp-for="Email" placeholder="Emailinizi Giriniz"/>
+      
+
+      <input type="submit" class="fadeIn four " value="Bilgilerini Güncelle"> 
+    </form>
+
+    <!-- Remind Password -->
+    <div id="formFooter">
+    </div>
+
+  </div>
+</div>

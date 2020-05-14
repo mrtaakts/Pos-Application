@@ -1,0 +1,59 @@
+@model Product
+@{
+    ViewData["Title"] = "Create";
+    Layout = "form1";
+}
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+
+    <!-- VALİDATİON KISIMLARI BASLANGICI -->
+    <div class="form group " >
+ <span asp-validation-for="Name" class="text-danger "></span>
+  <br>
+ <span asp-validation-for="Price" class="text-danger "></span>
+ <br>
+ <span asp-validation-for="Category" class="text-danger "></span>
+
+</div>
+
+    <!-- VALİDATİON KISIMLARI SONU -->
+
+
+     <!-- Login Form -->
+    <form  method="post" asp-action="Create" asp-controller="Product" enctype="multipart/form-data">
+
+     <!-- Fotoğraf kısmı-->
+     <div class="fadeIn first"> <h1>Ürün Oluştur</h1>
+     <br>
+       <input type="file" asp-for=Image accept="image/png, image/jpeg" enctype="multipart/form-data"/>
+    </div>
+
+
+      <input type="text"  class="fadeIn second"  asp-for="Name" placeholder="Ürünün İsmi"/>
+
+      <input type="text"  class="fadeIn third"  asp-for="Price" placeholder="Ürünün Fiyatı"/>
+
+      <input type="text" class="fadeIn fourth" asp-for=Category placeholder="Ürünün Kategorisi"/>
+      
+      <input type="text" class="fadeIn fourt" asp-for=Description placeholder="Ürünün Açıklaması (zorunlu değil)"/>
+
+
+      <input type="submit" class="fadeIn four " value="Ürünü Oluştur"> 
+    </form>
+
+    <!-- Remind Password -->
+    <div id="formFooter">
+      <a class="underlineHover" asp-controller="product" asp-action="List">Menü</a>
+    </div>
+
+  </div>
+</div>

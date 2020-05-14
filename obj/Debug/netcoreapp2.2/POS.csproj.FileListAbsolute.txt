@@ -1,0 +1,223 @@
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.csprojAssemblyReference.cache
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.csproj.CoreCompileInputs.cache
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cache
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cs
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.AssemblyInfoInputs.cache
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.AssemblyInfo.cs
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.TagHelpers.input.cache
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.TagHelpers.output.cache
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.RazorCoreGenerate.cache
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\Razor\Views\Product\List.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cache
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cs
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.dll
+c:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.pdb
+C:\Users\MAKTAS-STJ\Desktop\POS\bin\Debug\netcoreapp2.2\POS.deps.json
+C:\Users\MAKTAS-STJ\Desktop\POS\bin\Debug\netcoreapp2.2\POS.runtimeconfig.json
+C:\Users\MAKTAS-STJ\Desktop\POS\bin\Debug\netcoreapp2.2\POS.runtimeconfig.dev.json
+C:\Users\MAKTAS-STJ\Desktop\POS\bin\Debug\netcoreapp2.2\POS.dll
+C:\Users\MAKTAS-STJ\Desktop\POS\bin\Debug\netcoreapp2.2\POS.pdb
+C:\Users\MAKTAS-STJ\Desktop\POS\bin\Debug\netcoreapp2.2\POS.Views.dll
+C:\Users\MAKTAS-STJ\Desktop\POS\bin\Debug\netcoreapp2.2\POS.Views.pdb
+C:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.Views.pdb
+C:\Users\MAKTAS-STJ\Desktop\POS\obj\Debug\netcoreapp2.2\POS.csproj.CopyComplete
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.csprojAssemblyReference.cache
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.csproj.CoreCompileInputs.cache
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cache
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.AssemblyInfoInputs.cache
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.AssemblyInfo.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.TagHelpers.input.cache
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.TagHelpers.output.cache
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.RazorCoreGenerate.cache
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Error.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\List.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\User\Create.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\User\Kullan.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cache
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cs
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.dll
+C:\Users\SSOYGAN-STJ\Desktop\en yeni\pos\obj\Debug\netcoreapp2.2\POS.pdb
+C:\Users\MAKTAS-STJ\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout2.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\SignUp.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\LogIn.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\bin\Debug\netcoreapp2.2\POS.deps.json
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\bin\Debug\netcoreapp2.2\POS.runtimeconfig.json
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\bin\Debug\netcoreapp2.2\POS.runtimeconfig.dev.json
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\bin\Debug\netcoreapp2.2\POS.dll
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\bin\Debug\netcoreapp2.2\POS.pdb
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\bin\Debug\netcoreapp2.2\POS.Views.dll
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\bin\Debug\netcoreapp2.2\POS.Views.pdb
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.csprojAssemblyReference.cache
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.csproj.CoreCompileInputs.cache
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cache
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.AssemblyInfoInputs.cache
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.AssemblyInfo.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.TagHelpers.input.cache
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.TagHelpers.output.cache
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.RazorCoreGenerate.cache
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\LogIn.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\SignUp.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Error.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\List.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout2.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\User\Create.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\User\Kullan.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cache
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cs
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.Views.pdb
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.dll
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.pdb
+C:\Users\MAKTAS-STJ\Desktop\poss\pos\obj\Debug\netcoreapp2.2\POS.csproj.CopyComplete
+C:\Users\Mert\Desktop\selam\pos\bin\Debug\netcoreapp2.2\POS.deps.json
+C:\Users\Mert\Desktop\selam\pos\bin\Debug\netcoreapp2.2\POS.runtimeconfig.json
+C:\Users\Mert\Desktop\selam\pos\bin\Debug\netcoreapp2.2\POS.runtimeconfig.dev.json
+c:\Users\Mert\Desktop\selam\pos\bin\Debug\netcoreapp2.2\POS.dll
+c:\Users\Mert\Desktop\selam\pos\bin\Debug\netcoreapp2.2\POS.pdb
+C:\Users\Mert\Desktop\selam\pos\bin\Debug\netcoreapp2.2\POS.Views.dll
+c:\Users\Mert\Desktop\selam\pos\bin\Debug\netcoreapp2.2\POS.Views.pdb
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.csprojAssemblyReference.cache
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.csproj.CoreCompileInputs.cache
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cache
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.AssemblyInfoInputs.cache
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.AssemblyInfo.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.TagHelpers.input.cache
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.TagHelpers.output.cache
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.RazorCoreGenerate.cache
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\LogIn.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\SignUp.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Anasayfa.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Error.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\List.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Empty.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout2.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\User\Create.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\User\Kullan.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cache
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cs
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.Views.pdb
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.dll
+c:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.pdb
+C:\Users\Mert\Desktop\selam\pos\obj\Debug\netcoreapp2.2\POS.csproj.CopyComplete
+C:\Users\Mert\Desktop\pos\bin\Debug\netcoreapp2.2\POS.deps.json
+C:\Users\Mert\Desktop\pos\bin\Debug\netcoreapp2.2\POS.runtimeconfig.json
+C:\Users\Mert\Desktop\pos\bin\Debug\netcoreapp2.2\POS.runtimeconfig.dev.json
+c:\Users\Mert\Desktop\pos\bin\Debug\netcoreapp2.2\POS.dll
+c:\Users\Mert\Desktop\pos\bin\Debug\netcoreapp2.2\POS.pdb
+C:\Users\Mert\Desktop\pos\bin\Debug\netcoreapp2.2\POS.Views.dll
+c:\Users\Mert\Desktop\pos\bin\Debug\netcoreapp2.2\POS.Views.pdb
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.csprojAssemblyReference.cache
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.csproj.CoreCompileInputs.cache
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cache
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.AssemblyInfoInputs.cache
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.AssemblyInfo.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.TagHelpers.input.cache
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.TagHelpers.output.cache
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.RazorCoreGenerate.cache
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\LogIn.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\SignUp.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Anasayfa.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Error.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\List.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Empty.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout2.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\User\Create.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\User\Kullan.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cache
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cs
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.Views.pdb
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.dll
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.pdb
+C:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\POS.csproj.CopyComplete
+c:\Users\Mert\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\form1.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Anasayfa.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Empty.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\form1.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Member\Index.g.cshtml.cs
+c:\Users\MAKTAS-STJ\Desktop\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\admin.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\bin\Debug\netcoreapp2.2\POS.deps.json
+C:\Users\MAKTAS-STJ\Desktop\try\pos\bin\Debug\netcoreapp2.2\POS.runtimeconfig.json
+C:\Users\MAKTAS-STJ\Desktop\try\pos\bin\Debug\netcoreapp2.2\POS.runtimeconfig.dev.json
+C:\Users\MAKTAS-STJ\Desktop\try\pos\bin\Debug\netcoreapp2.2\POS.dll
+C:\Users\MAKTAS-STJ\Desktop\try\pos\bin\Debug\netcoreapp2.2\POS.pdb
+C:\Users\MAKTAS-STJ\Desktop\try\pos\bin\Debug\netcoreapp2.2\POS.Views.dll
+C:\Users\MAKTAS-STJ\Desktop\try\pos\bin\Debug\netcoreapp2.2\POS.Views.pdb
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.csprojAssemblyReference.cache
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.csproj.CoreCompileInputs.cache
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cache
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.RazorAssemblyInfo.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.AssemblyInfoInputs.cache
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.AssemblyInfo.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.TagHelpers.input.cache
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.TagHelpers.output.cache
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.RazorCoreGenerate.cache
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\admin.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\LogIn.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\settings.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\SignUp.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Anasayfa.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Product\List.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Empty.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\form1.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout2.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cache
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.RazorTargetAssemblyInfo.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.Views.pdb
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.dll
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.pdb
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\POS.csproj.CopyComplete
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\PasswordChange.g.cshtml.cs
+C:\Users\MAKTAS-STJ\Desktop\try\pos\obj\Debug\netcoreapp2.2\Razor\Views\Home\ChangeUser.g.cshtml.cs

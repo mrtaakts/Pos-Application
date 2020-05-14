@@ -1,0 +1,149 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+@{
+    ViewData["Title"] = "Admin";
+    Layout = "";
+}
+@model UserViewModel
+
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'><link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel="stylesheet" type="text/css" href="/css/admin.css" />
+
+<body style="background-color:#eeeed1" class="sidebar-is-reduced">
+  <header class="l-header">
+    <div class="l-header__inner clearfix">
+      <div class="c-header-icon js-hamburger">
+        <div class="hamburger-toggle"><span class="bar-top"></span><span class="bar-mid"></span><span class="bar-bot"></span></div>
+      </div>
+      <div class="c-header-icon has-dropdown"><span class="c-badge c-badge--header-icon animated shake">87</span><i class="fa fa-bell"></i>
+        <div class="c-dropdown c-dropdown--notifications">
+          <div class="c-dropdown__header"></div>
+          <div class="c-dropdown__content"></div>
+        </div>
+      </div>
+      <div class="c-search">
+        <input class="c-search__input u-input" placeholder="Search..." type="text"/>
+      </div>
+      <div class="header-icons-group">
+        <div class="c-header-icon basket"><span class="c-badge c-badge--header-icon animated shake">12</span><i class="fa fa-shopping-basket"></i></div>
+        <a class="c-header-icon logout" asp-action="LogOut" asp-controller="Home"><i class="fa fa-power-off"></i></a>
+      </div>
+    </div>
+  </header>
+  <div class="l-sidebar">
+    <div class="logo">
+      <a class="logo__txt" asp-action="admin" asp-controller="Home">D</a>
+    </div>
+    <div class="l-sidebar__content">
+      <nav class="c-menu js-menu">
+        <ul class="u-list">
+          <li class="c-menu__item is-active" data-toggle="tooltip" title="Siparişler">
+            <div class="c-menu__item__inner"><i class="fa fa-cloud"></i>
+              <div class="c-menu-item__title"><span>Siparişler</span></div>
+            </div>
+          </li>
+          <li class="c-menu__item has-submenu" data-toggle="tooltip" title="Ürün Yarat">
+            <div class="c-menu__item__inner"><i class="fa fa-file"></i>
+              <a class="c-menu-item__title" asp-action="Create" asp-controller="Product"><span>Ürün Yarat</span></a>
+            </div>
+          </li>
+          <li class="c-menu__item has-submenu" data-toggle="tooltip" title="Ayarlar">
+            <div class="c-menu__item__inner"><i class="fa fa-cogs"></i>
+              <a class="c-menu-item__title" asp-action="settings" asp-controller="Home"><span>Ayarlar</span></a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+<main class="l-main"><br><br>
+<h1 style="font-family:emoji">Kullanıcı Bilgileri</h1><hr>
+<div>
+  <table class="table1 col-md-9" border="2" align="right">
+    <tr>
+      <th style="height:120">Kullanıcı Adı</th>
+      <td align="center">@Model.UserName
+
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="height:120 ">
+      <th>E-Posta</th>
+      <td align="center">@Model.Email</td>
+
+    </tr>
+    <tr style="height:120">
+      <th>Telefon Numarası</th>
+      <td align="center">@Model.PhoneNumber</td>
+    </tr>
+    <img class="photo1 col-md-3" style="height:360" src="/Photo/avatar.png"/>
+  </tbody>
+</table>
+</div>
+<br><div class="button1">
+  <a type="button" class="btn btn-success btn-lg active col-md-4" asp-controller="Home" asp-action="PasswordChange" >Şifre Değiştir</a> 
+  <a type="button" class="btn btn-primary  btn-lg active col-md-4" asp-controller="Home" asp-action="ChangeUser">Bilgi Güncelleme</a>
+  <a type="button" asp-action="LogOut" asp-controller="Home" class="btn btn-warning btn-lg active col-md-4" >Çıkış Yap</a>
+</div>
+
+</main>
+
+</body>
+
+<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script src='https://use.fontawesome.com/2188c74ac9.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script >"use strict";
+
+var Dashboard = function () {
+	var global = {
+		tooltipOptions: {
+			placement: "right"
+		},
+		menuClass: ".c-menu"
+	};
+
+	var menuChangeActive = function menuChangeActive(el) {
+		var hasSubmenu = $(el).hasClass("has-submenu");
+		$(global.menuClass + " .is-active").removeClass("is-active");
+		$(el).addClass("is-active");
+
+		// if (hasSubmenu) {
+		// 	$(el).find("ul").slideDown();
+		// }
+	};
+
+	var sidebarChangeWidth = function sidebarChangeWidth() {
+		var $menuItemsTitle = $("li .menu-item__title");
+
+		$("body").toggleClass("sidebar-is-reduced sidebar-is-expanded");
+		$(".hamburger-toggle").toggleClass("is-opened");
+
+		if ($("body").hasClass("sidebar-is-expanded")) {
+			$('[data-toggle="tooltip"]').tooltip("destroy");
+		} else {
+			$('[data-toggle="tooltip"]').tooltip(global.tooltipOptions);
+		}
+	};
+
+	return {
+		init: function init() {
+			$(".js-hamburger").on("click", sidebarChangeWidth);
+
+			$(".js-menu li").on("click", function (e) {
+				menuChangeActive(e.currentTarget);
+			});
+
+			$('[data-toggle="tooltip"]').tooltip(global.tooltipOptions);
+		}
+	};
+}();
+
+Dashboard.init();
+//# sourceURL=pen.js
+</script>
+
+</html>
