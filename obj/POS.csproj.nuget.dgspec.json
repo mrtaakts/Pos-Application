@@ -1,32 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MAKTAS-STJ\\Desktop\\try\\pos\\POS.csproj": {}
+    "C:\\Users\\Mert\\Desktop\\Github Repositories\\Pos-Application\\POS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MAKTAS-STJ\\Desktop\\try\\pos\\POS.csproj": {
+    "C:\\Users\\Mert\\Desktop\\Github Repositories\\Pos-Application\\POS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MAKTAS-STJ\\Desktop\\try\\pos\\POS.csproj",
+        "projectUniqueName": "C:\\Users\\Mert\\Desktop\\Github Repositories\\Pos-Application\\POS.csproj",
         "projectName": "POS",
-        "projectPath": "C:\\Users\\MAKTAS-STJ\\Desktop\\try\\pos\\POS.csproj",
-        "packagesPath": "C:\\Users\\MAKTAS-STJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MAKTAS-STJ\\Desktop\\try\\pos\\obj\\",
+        "projectPath": "C:\\Users\\Mert\\Desktop\\Github Repositories\\Pos-Application\\POS.csproj",
+        "packagesPath": "C:\\Users\\Mert\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mert\\Desktop\\Github Repositories\\Pos-Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MAKTAS-STJ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Mert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -37,32 +36,39 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Mapster": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[6.5.0, )"
             },
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.2.0, )"
             },
             "animate.css": {
               "target": "Package",
@@ -70,10 +76,24 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -15,6 +15,7 @@ using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using pos.Models;
 using pos.Models.CustomValidation;
 using POS.Models;
+using Microsoft.Extensions.Hosting;
 
 namespace POS
 {
@@ -85,11 +86,11 @@ namespace POS
                 });
 
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -104,14 +105,18 @@ namespace POS
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseRouting();
             app.UseCookiePolicy();
             app.UseAuthentication();
+            app.UseAuthorization();
 
-            app.UseMvc(routes =>
+       
+
+              app.UseEndpoints(endpoints =>
             {
-                routes.MapRoute(
+                endpoints.MapControllerRoute(
                     name: "default",
-                    template: "{controller=Product}/{action=Anasayfa}/{id?}");
+                    pattern: "{controller=Product}/{action=Anasayfa}/{id?}");
             });
         }
     }

@@ -1,0 +1,5 @@
+C:\Users\Mert\Downloads\PosApplication-master\PosApplication-master\obj\Debug\netcoreapp3.0\POS.csprojAssemblyReference.cache
+C:\Users\Mert\Downloads\PosApplication-master\PosApplication-master\obj\Debug\netcoreapp3.0\POS.csproj.CoreCompileInputs.cache
+C:\Users\Mert\Downloads\PosApplication-master\PosApplication-master\obj\Debug\netcoreapp3.0\POS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mert\Downloads\PosApplication-master\PosApplication-master\obj\Debug\netcoreapp3.0\POS.AssemblyInfoInputs.cache
+C:\Users\Mert\Downloads\PosApplication-master\PosApplication-master\obj\Debug\netcoreapp3.0\POS.AssemblyInfo.cs
